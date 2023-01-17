@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+    font-family: "Courier New", sans-serif;
+}
+
+h2 {
+    color: blue;
+    font-size: 35px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 350px;
+}
+
+p {
+    font-family: "Comic Sans", sans-serif;
+    border: dotted red 3px;
+    width: fit-content;
+    text-align: center;
+}
+
+body {
+    background: powderblue;
+}
+
+.imagediv {
+    background-color: blue;
+    border: black dotted 3px;
+    margin: auto;
+    width: 10rem;
+}
+
+#contents {
+    display: block;
+    color: darkblue;
+    background-color: aqua;
+    border: 5px solid purple;
+    text-align: left;
+}
