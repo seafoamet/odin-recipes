@@ -1,10 +1,16 @@
+
+* {
+    text-align: center;
+    font-family: "Courier New";
+}
+
 h1 {
-    color: red;
+    color: brown;
     font-family: "Courier New", sans-serif;
 }
 
 h2 {
-    color: blue;
+    color: darkgreen;
     font-size: 35px;
 }
 
@@ -16,14 +22,26 @@ img {
 }
 
 p {
-    font-family: "Comic Sans", sans-serif;
-    border: dotted red 3px;
+    background-color: antiquewhite;
+    border: double gold 3px;
     width: fit-content;
     text-align: center;
+    padding: 8px;
+    margin: 8px auto;
 }
 
 body {
-    background: powderblue;
+    background: rgb(90, 109, 89);
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.index {
+    display: inline;
+}
+
+li {
+    text-align: left;
 }
 
 .imagediv {
@@ -35,8 +53,8 @@ body {
 
 #contents {
     display: block;
-    color: darkblue;
-    background-color: aqua;
-    border: 5px solid purple;
-    text-align: left;
+    color: rgb(51, 30, 11);
+    background-color: #99c4ac;
+    border: 5px dotted goldenrod;
+    padding: 10px;
 }
